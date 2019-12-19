@@ -1,14 +1,14 @@
 <template>
-  
+  <header-blog></header-blog>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import footer from './components/header/header';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    
+    footer
   }
 }
 </script>
