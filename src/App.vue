@@ -1,14 +1,23 @@
 <template>
-  <header-blog></header-blog>
+  <div id="App">
+    <el-container>
+      <el-header>
+        <base-header></base-header>
+      </el-header>
+      <el-main>
+    
+      </el-main>
+      <el-footer></el-footer>
+    </el-container>
+  </div>
 </template>
 
 <script>
-import footer from './components/header/header';
+import BaseHeader from './layout/BaseHeader';
 
 export default {
-  name: 'App',
   components: {
-    footer
+    BaseHeader
   }
 }
 </script>
